@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class PipeMove : MonoBehaviour {
 
-	public float pipeSpeed = 4f;
+	public float pipeSpeed = 1f;
 
 	private void Update()
 	{
-		transform.Translate(-pipeSpeed * Time.deltaTime, 0, 0);
+		if(!GameManager.playerDie) {
+			
+			transform.Translate(-pipeSpeed * Time.deltaTime, 0, 0);
 
-		if(transform.position.x <= -4f)
-		{
-			Destroy(gameObject);
+			if(transform.position.x <= -6f)
+			{
+				Destroy(gameObject);
+			}
 		}
-
 
 	}
 
