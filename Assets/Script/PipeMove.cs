@@ -8,15 +8,18 @@ public class PipeMove : MonoBehaviour {
 
 	private void Update()
 	{
-		if(!GameManager.playerDie) {
-			
-			transform.Translate(-pipeSpeed * Time.deltaTime, 0, 0);
+		 //if문 하나 추가
+        if (!GameManager.playerDie)
+        {
+            //x축 방향으로 이동시켜
+            transform.Translate(-pipeSpeed * Time.deltaTime, 0, 0);
 
-			if(transform.position.x <= -6f)
-			{
-				Destroy(gameObject);
-			}
-		}
+            //오브젝트 Destory하는 방법 중 하나
+            if (transform.position.x <= -4f)
+            {
+                Destroy(gameObject);
+            }
+        }   
 
 	}
 

@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Order.unity
     guid: 52eab6b8a24989749a1b8c9fcdb892de
   - enabled: 1
-    path: Assets/Scenes/game.unity
+    path: Assets/Scenes/Game.unity
     guid: 8db0d6758b6ea414fb22a0742be86050
   - enabled: 1
     path: Assets/Scenes/RunGame.unity
@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FlyGame.unity
     guid: 9c5e1678674cf674abe34ac47d079f48
+  - enabled: 1
+    path: Assets/Scenes/ClickerGame.unity
+    guid: 33f6b23b0a1a1cb46ba7f8adb915eb5e
   m_configObjects: {}

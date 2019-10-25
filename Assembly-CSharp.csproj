@@ -56,16 +56,27 @@
      <Compile Include="Assets\EndPanelManager.cs" />
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\Script\BirdControl.cs" />
-     <Compile Include="Assets\Script\BurgerSceneScript.cs" />
-     <Compile Include="Assets\Script\ChickenSceneScript.cs" />
+     <Compile Include="Assets\Script\ClickerGame\InGame.cs" />
      <Compile Include="Assets\Script\ColumnMaker.cs" />
      <Compile Include="Assets\Script\FlyButton.cs" />
      <Compile Include="Assets\Script\GroundMove.cs" />
-     <Compile Include="Assets\Script\OrderSceneScript.cs" />
+     <Compile Include="Assets\Script\Order\BurgerCountDown.cs" />
+     <Compile Include="Assets\Script\Order\BurgerCountUp.cs" />
+     <Compile Include="Assets\Script\Order\BurgerTextShow.cs" />
+     <Compile Include="Assets\Script\Order\ChickenCountDown.cs" />
+     <Compile Include="Assets\Script\Order\ChickenCountUp.cs" />
+     <Compile Include="Assets\Script\Order\ChickenTextShow.cs" />
      <Compile Include="Assets\Script\PipeMove.cs" />
-     <Compile Include="Assets\Script\RetrunSceneScript.cs" />
      <Compile Include="Assets\Script\RunGameSceneScript.cs" />
+     <Compile Include="Assets\Script\SceneScript\BurgerSceneScript.cs" />
+     <Compile Include="Assets\Script\SceneScript\ChickenSceneScript.cs" />
+     <Compile Include="Assets\Script\SceneScript\ClickerGameSceneScript.cs" />
+     <Compile Include="Assets\Script\SceneScript\FlyGameSceneScript.cs" />
+     <Compile Include="Assets\Script\SceneScript\GameSceneScript.cs" />
+     <Compile Include="Assets\Script\SceneScript\MainSceneScript.cs" />
+     <Compile Include="Assets\Script\SceneScript\OrderSceneScript.cs" />
      <Compile Include="Assets\Script\ScoreUpadateDetect.cs" />
+     <Compile Include="Assets\Script\Talk.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/PC/Desktop/바탕/Jingeria/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

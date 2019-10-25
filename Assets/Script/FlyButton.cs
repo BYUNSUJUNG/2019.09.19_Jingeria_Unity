@@ -6,6 +6,8 @@ public class FlyButton : MonoBehaviour {
 
 	public float characterJump = 8f;
 
+	public GameObject EndPannel;
+
 	void Update () {
 
 		if(!GameManager.playerDie) {
@@ -26,6 +28,9 @@ public class FlyButton : MonoBehaviour {
 		if (collision.gameObject.tag.CompareTo("Pipe_Ground") == 0)
 		{
 			GameManager.playerDie = true;
+
+			EndPannel.SetActive(true);
 		}
 	}
 }
+

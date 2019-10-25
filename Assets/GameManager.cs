@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject pipePrefab;
 
 	static public int score = 0;
+	static public int bestScore = 0;
 	public Text ScoreText;
 
 	private void Start () {
